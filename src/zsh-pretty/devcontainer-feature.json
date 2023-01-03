@@ -1,0 +1,9 @@
+{
+    "name": "ZSH console installer",
+    "id": "zsh-pretty",
+    "version": "1.0.0",
+    "description": "Installs ZSH and configures it. Also installs few extra plugins",
+    "options": {
+        
+    }
+}
