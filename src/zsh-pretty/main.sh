@@ -82,14 +82,18 @@ else
 fi
 
 
-curl -L git.io/antigen > ~/antigen.zsh
-cp -r "${FEATURE_DIR}/scripts/.zshrc" "/home/${USERNAME}"
-cp -r "${FEATURE_DIR}/scripts/.p10k.zsh" "/home/${USERNAME}"
+curl -L git.io/antigen > ${user_rc_path}/antigen.zsh
+cp -r "${FEATURE_DIR}/scripts/.zshrc" ${user_rc_path}
+cp -r "${FEATURE_DIR}/scripts/.p10k.zsh" ${user_rc_path}
 
 chsh --shell /bin/zsh ${USERNAME}
 
+if [ "${USERNAME}" = "root" ]; then 
+    echo "root"
+else
+    chown $USERNAME:$USERNAME -R ${user_rc_path}
+    chmod -R 777 ${user_rc_path}
+fi
 
-chown $USERNAME:$USERNAME -R "/home/${USERNAME}/"
-chmod -R 777 "/home/${USERNAME}/"
 
 echo "Done!"
