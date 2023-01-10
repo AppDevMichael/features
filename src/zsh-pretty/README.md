@@ -1,4 +1,5 @@
 
+
 # ZSH console installer (zsh-pretty)
 
 Installs ZSH and configures it. Also installs few extra plugins
