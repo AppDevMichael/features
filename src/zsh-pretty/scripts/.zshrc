@@ -3,7 +3,6 @@ source ~/antigen.zsh
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
 
-
 antigen bundle git
 antigen bundle python
 antigen bundle node
@@ -13,8 +12,6 @@ antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
 
 antigen theme romkatv/powerlevel10k
-
-
 
 antigen apply
 
@@ -31,9 +28,7 @@ autoload -Uz compinit
 compinit
 # End of lines added by compinstall
 
-
-ZSH_HIGHLIGHT_HIGHLIGHTERS=( main brackets )
+ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=8"
-
 
 source ~/.p10k.zsh

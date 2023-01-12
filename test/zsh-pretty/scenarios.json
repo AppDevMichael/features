@@ -1,8 +1,0 @@
-{
-    "buster": {
-        "image": "debian:buster",
-        "features": {
-            "zsh-pretty": {}
-        }
-    }
-}

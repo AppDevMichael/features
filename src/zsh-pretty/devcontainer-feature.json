@@ -1,11 +1,10 @@
 {
-    "name": "ZSH console installer",
-    "id": "zsh-pretty",
-    "version": "1.0.4",
-    "description": "Installs ZSH and configures it. Also installs few extra plugins",
-    "options": {
-    },
-    "installsAfter": [
-      "ghcr.io/devcontainers/features/common-utils"
-    ]
+  "name": "ZSH console installer",
+  "id": "zsh-pretty",
+  "version": "1.0.5",
+  "description": "Installs ZSH and configures it. Also installs few extra plugins",
+  "options": {},
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
 }

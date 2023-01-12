@@ -14,7 +14,7 @@ Installs ZSH and configures it. Also installs few extra plugins
 ## Options
 
 | Options Id | Description | Type | Default Value |
-|-----|-----|-----|-----|
+| ---------- | ----------- | ---- | ------------- |
 
 
 
